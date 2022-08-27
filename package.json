@@ -1,0 +1,43 @@
+{
+  "name": "@fineorg/eslint-config-react",
+  "version": "0.0.1",
+  "description": "Fine Eslint Config",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fineorg/eslint-config-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fineorg/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/fineorg/eslint-config-react",
+  "author": "congqiu",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "yarn version --patch"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.8.7",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1"
+  }
+}
