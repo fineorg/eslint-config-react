@@ -1,6 +1,6 @@
 {
   "name": "@fineorg/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fine Eslint Config",
   "keywords": [
     "eslint",
@@ -23,21 +23,21 @@
     "patch": "yarn version --patch"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.50.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.8.7",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-unused-imports": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "prettier": "^2.7.1"
+    "eslint": "^8.53.0",
+    "prettier": "^3.0.3"
   }
 }

@@ -13,8 +13,9 @@ git push origin v1.0.0
 ## 安装
 
 ```sh
-npm
+# npm
 npm install @fineorg/eslint-config-react
+
 # yarn
 yarn add @fineorg/eslint-config-react
 ```
@@ -24,7 +25,7 @@ yarn add @fineorg/eslint-config-react
 本配置文件是针对使用 [Typescript](https://www.typescriptlang.org/) 开发 [React](https://zh-hans.reactjs.org/) 项目的，只能在对应环境下使用。同时使用了 [Prettier](https://prettier.io/) 作为代码风格工具，为了确保使用正常，需要先安装好对应的环境以及相关依赖。
 
 ```sh
-以 vite 安装 react-ts 为例
+# 以 vite 安装 react-ts 为例
 npm create vite@latest my-vue-app -- --template react-ts
 # yarn
 yarn create vite my-vue-app --template react-ts
