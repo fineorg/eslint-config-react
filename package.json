@@ -1,6 +1,6 @@
 {
   "name": "@fineorg/eslint-config-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fine Eslint Config",
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "patch": "yarn version --patch"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^8.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.5.0",
@@ -36,7 +36,7 @@
     "eslint-plugin-unused-imports": "^3.1.0"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5"
   }
 }
