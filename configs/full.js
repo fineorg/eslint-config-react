@@ -55,11 +55,4 @@ module.exports = {
     "import/newline-after-import": ["error"],
     "unused-imports/no-unused-imports": ["error"],
   },
-  overrides: [
-    {
-      files: ["*.test.ts", "*.spec.js"],
-      plugins: ["jest"],
-      extends: ["plugin:jest/recommended"],
-    },
-  ],
 };
